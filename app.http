@@ -1,0 +1,13 @@
+Get http://localhost:3000/todos
+
+###
+DELETE  http://localhost:3000/todos/3
+
+###
+POST  http://localhost:3000/todos/
+Content-Type:application/json
+
+{
+    "title": "Learn Node.js"
+
+ }
