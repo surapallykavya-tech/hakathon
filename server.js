@@ -4,6 +4,8 @@ const {open}=require('sqlite');
 const sqlite3=require('sqlite3'); 
 const path=require('path');
 const { request, get } = require('http');
+const cors=require('cors');
+app.use(cors());
 
 const dbPath=path.join(__dirname,'simpleTodos.db');
 app.use(express.json());
